@@ -1,0 +1,73 @@
+
+body {
+  font-family:'Times New Roman', Times, serif;
+  color: rgb(169, 90, 243);
+  background-color:rgb(234, 202, 255);
+  margin: 0;
+  padding: 0;
+}
+ul{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  color: black;
+  text-color: plum
+}
+li{
+  display:inline-block;
+  background-color: plum;
+  border-radius: 2px;
+  padding: 20;
+  
+}
+li:hover{
+  background: whitesmoke
+}
+li:first-child{
+  margin: 0;
+}
+a {
+  text-decoration:none;
+  
+}
+  a:hover{
+    text-decoration: wavy underline;
+  }
+
+header{
+
+  background-color: #000000;
+  text-align: center;
+  width:100%
+}
+
+header a{
+    background-color: plum;
+    text-decoration: none;
+    text-transform: uppercase;
+
+  }
+  header .logo a{
+    background-image: url('images/ribbon.png');
+    background-size: 300px;
+    background-repeat: no-repeat;
+    background-position: relative;
+    display: inline-block;
+    height:200px;
+    text-indent: -9999999px;
+    width: 300px;
+  
+
+  
+
+}
+
+
+h1 {
+  color: black;
+  text-align: center;
+  font-size: 1.5cm;
+}
+
+
+
